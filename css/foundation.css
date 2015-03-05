@@ -1141,29 +1141,29 @@ select {
     right: 91.66667%;
     left: auto; } }
 button, .button {
-  border-style: solid;
-  border-width: 0;
-  cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 0;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
-  transition: background-color 300ms ease-out; }
+	border-style: solid;
+	border-width: 0;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	position: relative;
+	text-decoration: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+	display: inline-block;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.0625rem;
+	padding-left: 2rem;
+	font-size: 1rem;
+	background-color: #008CBA;
+	border-color: #007095;
+	color: #FFFFFF;
+	transition: background-color 300ms ease-out;
+}
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -1227,9 +1227,11 @@ button, .button {
     padding-left: 1.25rem;
     font-size: 0.6875rem; }
   button.expand, .button.expand {
-    padding-right: 0;
-    padding-left: 0;
-    width: 100%; }
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+	text-align: center;
+}
   button.left-align, .button.left-align {
     text-align: left;
     text-indent: 0.75rem; }
